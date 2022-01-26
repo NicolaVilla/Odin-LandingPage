@@ -1,0 +1,146 @@
+/* MAIN BODY*/
+body{
+    background-color: white;
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* PRIMERA LINEA --------------------------------------*/
+.header{
+   padding-right: 250px;
+   padding-left: 250px;
+   padding-top: 16px;
+    
+    background-color: #1f2937;
+    color: #F9FAF8;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-logo{
+   font-size: 24px;
+   font-weight: bold; 
+   font-family: "Hero Main text", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.header-links{
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    
+}
+
+
+/* SEGUNDA LINEA    ---------------------------------*/
+
+.content{
+    background-color: #1f2937;
+    color: #F9FAF8;
+
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 16px;
+    padding-bottom: 100px;
+
+    
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    
+}
+
+.content-title{
+    font-family: "Hero Main text", sans-serif;
+    font-size: 48px;
+}
+
+.content-subtext{
+    font-family: "Hero Secondaty text", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.content-right{
+    
+    margin-top: 16px;
+
+    background-color: gray;
+
+    width: 600px;
+    height: inherit;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    width: 120px;
+    height: 40px;
+
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/* TERCERA LINEA*/
+
+.information{
+    text-align: center;
+}
+
+.info-contenedores{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info{
+    text-align: center;
+}
+
+.info-img{
+    width: 150px;
+    height: 150px;
+   
+
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+/* CUARTA LINEA */
+
+.cita{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cita-text{
+    font-style: light italic;
+    font-size: 36px;
+    padding-left: 350px;
+    padding-right: 350px;
+    color: #1F2937;
+}
